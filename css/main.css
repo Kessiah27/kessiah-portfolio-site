@@ -1,0 +1,604 @@
+/***** MILESTONE CSS CODE *****/
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+/***** SECTION IDs *****/
+
+#header, #skills, #portfolio, #contact {
+  height: 768px;
+}
+
+#about, #testimonials {
+  height: 458px;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** CONTENT STYLES *****/
+
+/***** HEADER *****/
+
+header {
+  height: 768px;
+  background: url('../img/max-patch-site.jpg') no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  color: #08575e;
+  padding: 0px 50px;
+}
+
+nav ul img {
+  width: 225px;
+  height: auto;
+  image-orientation: center;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+header h1 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 75px;
+  color: #08575e;
+  text-align: center;
+  line-height: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+header h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 220px 0px 25px 0px;
+
+}
+
+.header-span {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+header h3 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 36px;
+  color: #08575e;
+  text-align: center;
+  line-height: 60px;
+}
+
+/***** END HEADER SECTION *****/
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 130px 83px 89px 83px;
+}
+
+#about .bio-pic {
+  float: left;
+  padding: 0px 64px 0px 0px;
+}
+
+#about h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: #08575e;
+  line-height: 0px;
+}
+
+#about p {
+  line-height: 48px;
+}
+
+/***** END ABOUT SECTION *****/
+
+/***** SKILLS *****/
+
+#skills {
+  height: 768px;
+  background: url('../img/gunnison-site.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#skills h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: #08575e;
+  padding: 80px 0px 20px 0px;
+}
+
+#skills .third-width img {
+  image-orientation: center;
+}
+
+#skills h3 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 36px;
+  color: white;
+  font-weight: lighter;
+  padding: 10px 32px;
+}
+
+#skills p {
+  font-size: 18px;
+  color: white;
+  padding: 0px 32px 100px 32px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+/***** END SKILLS SECTION *****/
+
+/***** PORTFOLIO *****/
+
+#portfolio .full-width {
+  height: 768px;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: #08575e;
+  padding: 30px 0px 0px 0px;
+}
+
+#portfolio h5 {
+  font-size: 24px;
+  text-align: left;
+  line-height: 0px;
+  margin: 20px 28px 60px 28px;
+}
+
+#portfolio img {
+  border: solid 2px black;
+  padding: 0px;
+}
+
+/***** END PORTFOLIO SECTION *****/
+
+/***** TESTIMONIALS *****/
+
+#testimonials {
+  background: #a0b3d4;
+  background: linear-gradient(#a0b3d4, #ffffff);
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+  line-height: 48px;
+  font-style: italic;
+  font-weight: normal;
+  color: #000000;
+  padding: 30px 83px 150px 115px;
+}
+
+#testimonials h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: #08575e;
+  text-align: center;
+  font-style: normal;
+}
+
+#testimonials img {
+  width: 225;
+}
+
+#testimonials .three-quarter-width {
+  width: 800px;
+  float: left;
+}
+
+#testimonials .quarter-width {
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.test-span {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 30px;
+  font-style: normal;
+  color: #08575e;
+}
+
+.test-span-2 {
+  font-style: normal;
+  color: #08575e;
+}
+
+/***** END TESTIMONIALS SECTION *****/
+
+/***** CONTACT *****/
+
+#contact {
+  height: 768px;
+  background: url('../img/kessiah-paco-site.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+#contact .full-width h2 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  padding: 50px 0px 0px 0px;
+}
+
+#contact .half-width h2 {
+  color: black;
+  padding: 0px;
+  margin: 60px 0px 20px 0px;
+}
+
+#contact .half-width h3 {
+  font-family: 'Kaushan Script', 'Courgette', 'Pattaya', cursive;
+  font-size: 36px;
+  line-height: 30px;
+  color: black;
+  padding: 0px 0px 10px 0px;
+}
+
+#contact ul {
+  align-items: center;
+  margin: -20px 0px -30px -35px;
+}
+
+#contact .half-width ul li {
+  display: inline-block;
+}
+
+#contact .half-width ul li a {
+  padding: 0px 17px;
+  margin: 10px 0px;
+}
+
+#contact .half-width h5 {
+  color: black;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0px 0px 0px 10px;
+}
+
+#contact .half-width .button {
+  background: #08575e;
+  border-radius: 8px;
+  border: solid 3px black;
+  font-family: 'Questrial', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 48px;
+  width: 276px;
+  height: 60px;
+  padding-top: 10px;
+  margin: 0px 105px;
+}
+
+
+#contact .circle {
+  background: white;
+  width: 490px;
+  height: 490px;
+  border-radius: 50%;
+  border: solid 5px #08575e;
+  margin: -15px 0px 0px 0px;                /* <-- try to fix this negative margin **/
+}
+
+#circle .half-width {
+    background: #ffffff;
+    width: 490px;
+    height: 490px;
+    border: solid 5px #08575e;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+#contact .button a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#contact a:link {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** -- BEFORE I LEARNED MORE STUFF
+                    |
+                    |
+                    V
+
+body h4 h5 p {
+  font-family: 'Questrial', sans-serif;
+}
+
+h1 h2 h3 {
+  font-family: 'Kaushan Script', cursive;
+}
+h1 {
+  font-size: 75pt;
+}
+h2 {
+  font-size: 60pt;
+}
+h3 {
+  font-size: 36pt;
+}
+h4 {
+  font-size: 30pt;
+}
+h5 {
+  font-size: 24pt;
+}
+p {
+  font-size: 18pt;
+}
+
+/***** SECTION IDs *****/ /***
+
+#header, #skills, #portfolio, #contact {
+  height: 768px;
+}
+
+#about, #testimonials {
+  height: 458px;
+}
+
+/***** GRID *****/ /***
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+  padding: 0px 0px 0px 0px;
+}
+.quarter-width {
+  width: 300px;
+  float: left;
+}
+.three-quarter-width {
+  width: 900px;
+  float: left;
+}
+
+/***** HEADER *****/ /***
+
+header {
+  background-image: url('...img/max-patch-site.jpg');
+  background-size: ;
+}
+
+nav {
+  font-family: 'Questrial', sans-serif;
+  color: #08575e;
+  float: left;
+  padding: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  font-size: 30pt;
+  padding: 80px;
+}
+
+header h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 75pt;
+  color: #08575e;
+  text-align: center;
+  line-height: 30px;
+}
+
+header h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60pt;
+  color: #ffffff;
+}
+
+header h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36pt;
+  line-height: 30px;
+  color: #08575e;
+  text-align: center;
+}
+
+header h4 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30pt;
+  line-height: 48pt;
+  color: #ffffff;
+}
+
+/***** END OF HEADER SECTION *****/
+
+/***** ABOUT *****/ /***
+
+#about .full-width {
+  padding: 130px 83px 90px 83px;
+}
+
+#about .quarter-width {
+  align-content: left;
+}
+
+#about .three-quarter-width h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 50pt;
+  color: #08575e;
+  line-height: 30px;
+}
+
+#about .three-quarter-width h4 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30px;
+  line-height: 48px;
+}
+
+/***** END OF ABOUT SECTION *****/
+
+/***** SKILLS *****/ /***
+
+#skills {
+  background: url('...img/gunnison-site.jpg');
+  background-image: cover;
+}
+
+#skills .full-width h2 {
+  font-family: 'Kaushan Script', cursive;
+  color: #08575e;
+  text-align: center;
+}
+
+#skills .third-width h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 30pt;
+  color: #08575e;
+  text-align: center;
+  padding: 20px;
+}
+
+#skills .third-width p {
+  font-family: 'Questrial', cursive;
+  color: black;
+  text-align: left;
+  padding: 35px;
+}
+
+/***** TESTIMONIALS *****/ /***
+
+#testimonials .full-width .h4 {
+  background-color: #08575e;
+  padding: 0 200 0 80px;
+}
+****/
+
+/*** BASIC INFO
+
+h1 {
+  font-family: 'Just Another Hand', sans-serif;
+  font-size: 75pt;
+  color: #08575e;
+}
+
+h2 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 60pt;
+  color: #08575e;
+}
+
+h3 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 36pt;
+  line-height: 48pt;
+  color: #08575e;
+}
+
+h4 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 30pt;
+  color: black;
+  line-height: 48pt;
+}
+
+h5 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24pt;
+  line-height: 36pt;
+  color: #08575e;
+}
+
+p {
+  font-family: 'Questrial', sans-serif;
+  font-size: 18pt;
+  line-height: 30pt;
+  color: white;
+}
+
+***/
+
+/*
+Font-family
+Font-size
+Font-weight
+Width
+Margin
+Color
+Line-height
+Padding
+*/
